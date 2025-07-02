@@ -1,0 +1,36 @@
+# Xcode
+#
+# gitignore contributors: remember to keep this file platform-agnostic
+# gitignore contributors: remember to update the readme if you change this file
+
+## User-specific stuff
+*.xcuserdatad
+*.user
+*.userprefs
+xcuserdata/
+.DS_Store
+
+## Build generated
+build/
+DerivedData/
+
+## Swift Package Manager
+.build/
+Packages/
+*.xcodeproj/project.xcworkspace
+*.xcodeproj/Package.xcworkspace
+.swiftpm
+
+## Carthage
+Carthage/Build
+Carthage/Checkouts
+
+## CocoaPods
+Pods/
+
+# Others
+*.app
+*.ipa
+*.log
+*.swp
+*~ 
