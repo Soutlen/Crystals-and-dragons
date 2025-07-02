@@ -7,5 +7,8 @@
 
 import Foundation
 
-print("Hello, World!")
+print("Enter maze size (e.g. 4):")
+let size = Int(readLine() ?? "4") ?? 4
+let game = MazeGame(size: size)
+game.play()
 
